@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -O3 -DNDEBUG   CMakeFiles/Calculator.dir/LinuxCalculator.cpp.o CMakeFiles/Calculator.dir/AbstractCalculator.cpp.o CMakeFiles/Calculator.dir/main.cpp.o  -o Calculator -rdynamic 
