@@ -24,7 +24,6 @@ int main()
 
         std::string str;
         std::cin >> str;
-        std::cout << "\n\n" << str << "\n\n";
         float x = 0.0f, y = 0.0f;
         if("sum" == str)
         {

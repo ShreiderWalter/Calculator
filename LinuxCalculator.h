@@ -8,10 +8,10 @@ class LinuxCalculator : public AbstractCalculator
 {
 public:
     LinuxCalculator();
-    float Summary(float x, float y) const;
-    float Substraction(float x, float y) const;
-    float Multiplication(float x, float y) const;
-    float Division(float x, float y) const;
+    float Summary(float x, float y) const override;
+    float Substraction(float x, float y) const override;
+    float Multiplication(float x, float y) const override;
+    float Division(float x, float y) const override;
 
 private:
     LinuxCalculator(const LinuxCalculator &) = delete;
